@@ -1,0 +1,27 @@
+# Only files needed to run and present the application are versioned.
+/*
+!/.gitignore
+!/.dockerignore
+!/Dockerfile
+!/docker-compose.yml
+!/requirements.txt
+!/api.py
+!/dashboard.py
+!/fraud_core.py
+!/client.py
+!/README.md
+!/ONE_PAGER.pdf
+!/.streamlit/
+/.streamlit/*
+!/.streamlit/config.toml
+
+# Trusted model and dashboard data: required for a working clone.
+!/config.json
+!/preprocessor.pkl
+!/xgboost_model.json
+!/reference.csv
+!/demo_transactions.csv
+!/dashboard_validation.csv
+!/global_shap_importance.csv
+!/test_summary.json
+!/versions.json
